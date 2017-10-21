@@ -98,7 +98,7 @@ Assume both $\sigma$ and $s$ are positive.
     & = -\int p(x)\ln\left(\frac{q(x)}{p(x)}\right)\mathrm{d}x\nonumber\\
     & = -\int p(x)\ln\left(\frac{\frac{1}{\sqrt{2\pi s^2}}\exp^{-\frac{(x-m)^2}{2s^2}}}{\frac{1}{\sqrt{2\pi\sigma^2}}\exp^{-\frac{(x-\mu)^2}{2\sigma^2}}}\right)\mathrm{d}x\nonumber\\
     & = \int p(x)\left(\ln\left(\frac{s^2}{\sigma^2}\right)^\frac{1}{2}+\left(\frac{(x-m)^2}{2s^2}-\frac{(x-\mu)^2}{2\sigma^2}\right)\right)\mathrm{d}x\nonumber\\
-    & = \ln\frac{s}{\sigma}+\frac{1}{2s^2}\int p(x)(x-m)^2\mathrm{d}x-\frac{1}{2\sigma^2}\int p(x)(x-\mu)^2\mathrm{d}x\label{3_1}
+    & = \ln(\frac{s}{\sigma})+\frac{1}{2s^2}\int p(x)(x-m)^2\mathrm{d}x-\frac{1}{2\sigma^2}\int p(x)(x-\mu)^2\mathrm{d}x\label{3_1}
 \end{align}
 We calculate integral of second term in \eqref{3_1}
 \begin{align}
@@ -111,9 +111,9 @@ We calculate integral of second term in \eqref{3_1}
 Substitude equation \eqref{3_2} to \eqref{3_1}, we get
 \begin{align*}
   \mathrm{KL}(p\parallel q)
-    & = \ln\frac{s}{\sigma}+\frac{1}{2s^2}\left(\sigma^2+(\mu-m)^2\right)-\frac{1}{2\sigma^2}\int p(x)(x-\mu)^2\mathrm{d}x\\
-    & = \ln\frac{s}{\sigma}+\frac{1}{2s^2}\left(\sigma^2+(\mu-m)^2\right)-\frac{\sigma^2}{2\sigma^2}\\
-    & = \ln\frac{s}{\sigma}+\frac{\sigma^2+(\mu-m)^2}{2s^2}-\frac{1}{2}
+    & = \ln(\frac{s}{\sigma})+\frac{1}{2s^2}\left(\sigma^2+(\mu-m)^2\right)-\frac{1}{2\sigma^2}\int p(x)(x-\mu)^2\mathrm{d}x\\
+    & = \ln(\frac{s}{\sigma})+\frac{1}{2s^2}\left(\sigma^2+(\mu-m)^2\right)-\frac{\sigma^2}{2\sigma^2}\\
+    & = \ln(\frac{s}{\sigma})+\frac{\sigma^2+(\mu-m)^2}{2s^2}-\frac{1}{2}
 \end{align*}
 \section{Polynomial Curve Fitting (30\%)}
 Please use ipython to check my solution to this problem.\\

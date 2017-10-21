@@ -2,6 +2,7 @@
 
 * numpy
 * pandas
+* scipy
 * matplotlib
 
 ## Environment

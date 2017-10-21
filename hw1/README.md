@@ -1,10 +1,10 @@
-## package used:
+## Package used
 
 * numpy
 * pandas
 * matplotlib
 
-## environment:
+## Environment
 
 * python3
 * ipython
